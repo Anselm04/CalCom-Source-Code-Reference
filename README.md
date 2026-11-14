@@ -14,7 +14,7 @@ In April 2026 Cal.com moved its commercial production code into a private reposi
 - Original source stored under `upstream/`
 - [Import and Git-tree verification workflow](https://github.com/Anselm04/CalCom-Source-Code-Reference/actions/workflows/import-cal-diy-source.yml)
 
-**Only regard this import as verified when the workflow confirms that the remotely retrieved `upstream/` tree matches the above pinned upstream tree.** This is the tracked source at one commit, not the full commit history, external submodule payloads, independently retrieved LFS objects, or any private commercial service.
+**GitHub Actions verified the upload.** This security-filtered snapshot retains **7,711 of 7,712** upstream tracked files. The token-bearing `apps/web/calendso.yaml` was omitted without bypassing GitHub push protection. The final retained Git tree is `917c9be2f9a11a6a0b3d7888ff38fcc76e5a8471`. [Successful import verification](https://github.com/Anselm04/CalCom-Source-Code-Reference/actions/runs/43540961871). This is the tracked source at one commit, not the full commit history, external submodule payloads, independently retrieved LFS objects, or any private commercial service.
 
 ## Copyright and licensing
 
