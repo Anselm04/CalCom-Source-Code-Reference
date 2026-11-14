@@ -1,4 +1,4 @@
-name: Import Cal.diy complete source snapshot
+name: Import Cal.diy security-filtered source snapshot
 
 # One-time push trigger plus manual rerun. Standard runners are free for public repositories.
 on:
@@ -62,9 +62,13 @@ jobs:
           git checkout --orphan cal-diy-upstream-snapshot
           git read-tree --empty
           git read-tree --prefix=upstream/ "$UPSTREAM_TREE"
+          # Upstream YAML contains Google OAuth token values flagged by
+          # GitHub push protection. Do not publish it or bypass scanning.
+          git update-index --force-remove -- upstream/apps/web/calendso.yaml
           IMPORT_TREE="$(git write-tree)"
           SUBTREE="$(git rev-parse "$IMPORT_TREE:upstream")"
-          test "$SUBTREE" = "$UPSTREAM_TREE" || { echo "::error::Source subtree differs from upstream"; exit 1; }
+          test "$SUBTREE" != "$UPSTREAM_TREE"
+          echo "$SUBTREE" > ../FILTERED_TREE
           # Upstream is nested under upstream/; original file paths, including
           # upstream/.github/workflows, are data and are preserved unchanged.
           # Commit only the exact preverified index tree. The shallow checkout's
@@ -92,9 +96,11 @@ jobs:
           LOCAL_TREE="$(git rev-parse 'HEAD:upstream')"
           REMOTE_TREE="$(git rev-parse 'FETCH_HEAD:upstream')"
           test "${LOCAL_TREE}" = "${REMOTE_TREE}"
-          test "${REMOTE_TREE}" = "$(cat ../UPSTREAM_TREE)"
-          test "${REMOTE_TREE}" = "a97f0c5a05befbf6c6ee37c788448c05628f27dc"
+          test "${REMOTE_TREE}" = "$(cat ../FILTERED_TREE)"
+          test "$(cat ../UPSTREAM_TREE)" = "a97f0c5a05befbf6c6ee37c788448c05628f27dc"
           echo "Verified matching Git tree: ${REMOTE_TREE}"
           echo "Upstream source commit: $(cat ../UPSTREAM_COMMIT)"
-          echo "Source tracked-file count: $(cat ../UPSTREAM_TRACKED_FILE_COUNT)"
+          echo "Original tracked files: $(cat ../UPSTREAM_TRACKED_FILE_COUNT)"
+          echo "Retained tracked files: $(git ls-tree -r --name-only FETCH_HEAD:upstream | wc -l)"
+          echo "Excluded OAuth-token-bearing upstream/apps/web/calendso.yaml"
           echo "Imported branch: cal-diy-upstream-snapshot"
