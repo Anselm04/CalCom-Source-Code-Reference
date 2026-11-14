@@ -1,0 +1,14 @@
+name: Verify pinned Git source tree calcom
+on:
+  push:
+    paths:
+      - '.github/workflows/audit-source-once.yml'
+permissions:
+  contents: write
+jobs:
+  audit:
+    uses: Anselm04/Macro-source-code-reference-/.github/workflows/reusable-source-audit.yml@main
+    with:
+      upstream_url: https://github.com/calcom/cal.diy.git
+      upstream_sha: ae027bb70e694e2d2c44569f398d6cbcee0389b1
+      audit_slug: calcom
