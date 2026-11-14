@@ -1,0 +1,308 @@
+{
+  "source": "https://github.com/calcom/cal.diy.git",
+  "commit": "ae027bb70e694e2d2c44569f398d6cbcee0389b1",
+  "number_of_original_workflow_files": 50,
+  "original_ci_is_disabled": true,
+  "files": [
+    {
+      "upstream_path": ".github/workflows/all-checks.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/all-checks.yml",
+      "git_blob": "6459fe9b31bd2794288e1f2dda6b7b94b5111934",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/api-v2-production-build.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/api-v2-production-build.yml",
+      "git_blob": "e287800d3643056d7ce641944e98d82f48040133",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/api-v2-unit-tests.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/api-v2-unit-tests.yml",
+      "git_blob": "d567973aa2967ba8274e7fd09c3b4b6920dc2184",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/atoms-production-build.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/atoms-production-build.yml",
+      "git_blob": "b3098d0e10dbd8e162da12015d502a9be6ffdac4",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/cache-clean.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/cache-clean.yml",
+      "git_blob": "f550ba484840c6f294b8aacf16284cc30d632865",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/changesets.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/changesets.yml",
+      "git_blob": "5366af646bbc2b909727a8fc5f59dc6dd2accffa",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/check-prisma-migrations.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/check-prisma-migrations.yml",
+      "git_blob": "52e8dab2c773b0627cd177444c53a74da956d164",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/check-types.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/check-types.yml",
+      "git_blob": "b10b5d71b2fbd9a37568146f807e31d38f8219ad",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/cleanup-report.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/cleanup-report.yml",
+      "git_blob": "e3e7daf1f9e7f4f15cb8593fde4028e77f6c8e61",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/cleanup.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/cleanup.yml",
+      "git_blob": "6e7fd6140ee1ee589742f0e0355b6e7ad534d5a5",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/cron-bookingReminder.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/cron-bookingReminder.yml",
+      "git_blob": "ff6384bc59cfaa2edda7af76e279b015132e014e",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/cron-changeTimeZone.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/cron-changeTimeZone.yml",
+      "git_blob": "5a988dc9f4f8061d9927733efb6ae7d462e876cb",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/cron-checkSmsPrices.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/cron-checkSmsPrices.yml",
+      "git_blob": "3275314adb2ddd673e3c9ee6e4644b081b9d3593",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/cron-downgradeUsers.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/cron-downgradeUsers.yml",
+      "git_blob": "d5c2984b36d5c5c38e8334d31f66585a699d324f",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/cron-monthlyDigestEmail.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/cron-monthlyDigestEmail.yml",
+      "git_blob": "d8ff0716069aca633862075d9d3340777224e7f7",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/cron-scheduleEmailReminders.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/cron-scheduleEmailReminders.yml",
+      "git_blob": "aecb91400f9bde7d9c8fef0e91e313f5b0efdc15",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/cron-scheduleSMSReminders.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/cron-scheduleSMSReminders.yml",
+      "git_blob": "c2fd9c5608abf433ede3175873ab525af647541f",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/cron-scheduleWhatsappReminders.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/cron-scheduleWhatsappReminders.yml",
+      "git_blob": "194b50e4e1b27be0e1fcfb421ef7b3ca3b517d6a",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/cron-stale-issue.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/cron-stale-issue.yml",
+      "git_blob": "031aa869e2edcdd02b391773ddaae219904ce827",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/cron-syncAppMeta.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/cron-syncAppMeta.yml",
+      "git_blob": "38ea311415fe783ffc7bb652d045417349403853",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/cron-webhooks-triggers.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/cron-webhooks-triggers.yml",
+      "git_blob": "ea6bc39d75b5352f7f824e4f8f4674ce9066a925",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/draft-release.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/draft-release.yml",
+      "git_blob": "8ac3f3cf24e90340980ee20490668ada68718a86",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/e2e-api-v2.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/e2e-api-v2.yml",
+      "git_blob": "cfa810d7cd1ed686ba87d68d63a4223f5238f74a",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/e2e-app-store.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/e2e-app-store.yml",
+      "git_blob": "6caa7bc1b1a7298a45a86a7dc0329cede32b2dca",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/e2e-atoms.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/e2e-atoms.yml",
+      "git_blob": "e694acea444fa356846b97d1b3ac4e91c1236c8f",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/e2e-embed-react.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/e2e-embed-react.yml",
+      "git_blob": "a097116dd4941146968d85b25d404f0dc47e6ff4",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/e2e-embed.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/e2e-embed.yml",
+      "git_blob": "2c9ca42ab63cd0162e1f2162f2c893f5627147a7",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/e2e-report.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/e2e-report.yml",
+      "git_blob": "c992f0c7d1fd1c49584981a3401da51e2c3e6550",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/e2e.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/e2e.yml",
+      "git_blob": "1c19c446a399a904c05a83fadd56b42881acc823",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/i18n.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/i18n.yml",
+      "git_blob": "1a64caf68a4d84ca879fb01bb49653076ce6798b",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/integration-tests.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/integration-tests.yml",
+      "git_blob": "02b548529c0bf282618b5c316c035c76b7c259dc",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/labeler.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/labeler.yml",
+      "git_blob": "63142ee95d4e0bed41979585c2498e9414099f20",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/lint.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/lint.yml",
+      "git_blob": "5c9af507afc78b796949f1178d2c0d11436e1d83",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/merge-reports.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/merge-reports.yml",
+      "git_blob": "5c76bb9a0ede593923ac97cf8e41e0f5f85ea8d6",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/nextjs-bundle-analysis-annotation.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/nextjs-bundle-analysis-annotation.yml",
+      "git_blob": "cacdc2a1df1580dd110bb8039e3300219106e576",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/nextjs-bundle-analysis.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/nextjs-bundle-analysis.yml",
+      "git_blob": "c45fe54b93c86027a89d70a390a29e392587fd61",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/on-changes-requested.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/on-changes-requested.yml",
+      "git_blob": "64bbf19cad90fc2aeb36ba83bf7816e07381ce7e",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/performance-tests.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/performance-tests.yml",
+      "git_blob": "8e2118028284381eb5f556e17fa3b0c751b23314",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/post-release.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/post-release.yml",
+      "git_blob": "ddcef9f5ce82f06a95d3b11d973340942a51753e",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/pr-welcome-bot.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/pr-welcome-bot.yml",
+      "git_blob": "215ed8ad2270ec3d984a8a7c4ba2259ce7f70aef",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/pr.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/pr.yml",
+      "git_blob": "a9c7ffe832538d0b845c8c5aba5735d84eb1885d",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/production-build-without-database.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/production-build-without-database.yml",
+      "git_blob": "ece78b0b0a00d4b96be422a763e2d7d6a1b41b19",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/publish-report.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/publish-report.yml",
+      "git_blob": "107c08049aead40cf9feb8a1cdeb38b3826450b0",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/re-draft.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/re-draft.yml",
+      "git_blob": "631bf23423c6c4495d32989e016e6d55c0c9df0d",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/release-docker.yaml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/release-docker.yaml",
+      "git_blob": "e9012e3ebcb0a6126b9a1b8eb4f6db2835f44c10",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/run-ci.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/run-ci.yml",
+      "git_blob": "30f1e3d2c30b7194fae9a9cadf0155a2c656c883",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/security-audit.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/security-audit.yml",
+      "git_blob": "0df84f682a2664770dfcaeb52d5cea3819fe02c1",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/semantic-pull-requests.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/semantic-pull-requests.yml",
+      "git_blob": "b9a80a0ec978043e002a2ad4078a9b16580648e6",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/setup-db.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/setup-db.yml",
+      "git_blob": "3148c3ddeade587cdd5f3beba8926c21de6ef5dd",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/unit-tests.yml",
+      "reference_path": "upstream-workflow-snapshots/calcom/.github/workflows/unit-tests.yml",
+      "git_blob": "4af892454ed09454cbefe4cc02f485d393074e98",
+      "original_mode": "100644"
+    }
+  ]
+}
